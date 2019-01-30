@@ -35,7 +35,7 @@ class Card extends React.Component<Props, any> {
   render() {
     const createdTime = new Date(this.props.news.created);
     return (
-      <a href={`/linh-tinh/${this.props.news.id}`} className="no-underline">
+      <a href={`/post?id=${this.props.news.id}`} className="no-underline">
         <div className="w-full lg:flex ">
           <div style={styles.backgroundContent} className="w-full rounded-b rounded-t lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div className="mb-8">

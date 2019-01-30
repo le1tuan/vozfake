@@ -54,11 +54,7 @@ class App extends React.Component<any, any> {
 
   render() {
     return (
-      <div>
-        <Head>
-          <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        </Head>        
+      <div>    
         <NavBar />
         <div className="flex flex-col flex-no-wrap items-center justify-center" style={styles.columns}>
           <div className="lg:w-4/5 xl:w-4/5 md:w-4/5 sm:w-full w-full" style={styles.cards}>
